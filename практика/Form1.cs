@@ -34,7 +34,6 @@ namespace практика
 
         private void button3_Click(object sender, EventArgs e)
         {
-
             this.Hide();
             Form4 f = new Form4();
             f.ShowDialog();
