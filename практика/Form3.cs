@@ -72,6 +72,7 @@ namespace практика
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Logger.Log($"удаление товара");
             if (comboBox1.Text=="")
             {
                 MessageBox.Show("Пожалуйста, выберите товар.", "Ошибка");
@@ -147,6 +148,7 @@ namespace практика
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            Logger.Log($"удаление категории");
             if (comboBox3.Text == "")
             {
                 MessageBox.Show("Пожалуйста, выберите категорию для удаления из списка.", "Ошибка");

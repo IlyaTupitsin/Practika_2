@@ -107,7 +107,7 @@ namespace практика
         }
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Logger.Log($"добавление категории");
             string parentFolderPath = @"C:\Users\Пользователь\Desktop\ломбард";
             string newFolderName = textBox4.Text;
 
